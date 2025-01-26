@@ -11,7 +11,7 @@ This study explores the semi-supervised and unsupervised learning capabilities o
 ###  For an in-depth understanding, refer to the Project_Report.pdf.
 ---
 
-# M2 Variational Autoencoder (VAE) Training
+#  Training with either M2 and optimized ELBO loss(Reserch extention)
 
 This repository contains the code to train M2 VAEs with either the standard M2 loss or the optimized ELBO loss(Reserch extention). The models support training on MNIST and CIFAR-10 datasets.
 
