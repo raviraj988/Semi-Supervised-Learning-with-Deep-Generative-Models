@@ -1,0 +1,11 @@
+{
+    "name": "LaTeX Environment",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "postCreateCommand": "sudo apt update && sudo apt install -y texlive texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra texlive-xetex latexmk",
+    "customizations": {
+      "vscode": {
+        "extensions": ["James-Yu.latex-workshop"]
+      }
+    }
+  }
+  
