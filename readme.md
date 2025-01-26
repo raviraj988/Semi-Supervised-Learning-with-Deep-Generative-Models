@@ -3,12 +3,12 @@
 ### `README.md`
 
 
-```markdown
+
 # Abstract
 This study explores the semi-supervised and unsupervised learning capabilities of deep generative modeling approaches, starting with an analysis and implementation of the M2 model, originally proposed by Kingma et al., through in-depth mathematical and experimental analyses. Building on the original proposed framework, in the *Research Section*, I introduce an Optimized-ELBO objective that addresses key challenges in the M2 model, such as classifier entropy misalignment, limited mutual information between inputs and latent variables, and insufficient utilization of labeled data. The method incorporates enhancements, including entropy penalty terms, mutual information maximization, and label smoothing, to improve both generative and discriminative performance. Extensive experiments on the MNIST and CIFAR-10 datasets demonstrate the efficacy of the proposed framework, with significant accuracy improvements on both datasets, highlighting its generalizability across diverse domains. The research section provides rigorous theoretical justifications and novel extensions to the ELBO objective, while the results validate the enhanced alignment of decision boundaries with low-density regions and improved learning from labeled data. This work sets the stage for further investigation into deeper architectures and advanced regularization techniques for semi-supervised learning.
 
 ---
-```markdown
+
 # M2 Variational Autoencoder (VAE) Training
 
 This repository contains the code to train M2 VAEs with either the standard M2 loss or the optimized ELBO loss(Reserch extention). The models support training on MNIST and CIFAR-10 datasets.
